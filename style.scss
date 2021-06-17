@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  background: linear-gradient(rgb(109, 206, 206), rgb(54, 230, 54));
+}
+
+.flex-item {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.flex-item-1 {
+  background: brown;
+  min-height: 500px;
+}
+.flex-item-2 {
+  background: cyan;
+  min-height: 100px;
+}
+.flex-item-3 {
+  background: gainsboro;
+  min-height: 50px;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6dcece), to(#36e636));
+  background: linear-gradient(#6dcece, #36e636);
+}
+
+.flex-item {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.flex-item-1 {
+  background: brown;
+  min-height: 500px;
+}
+
+.flex-item-2 {
+  background: cyan;
+  min-height: 100px;
+}
+
+.flex-item-3 {
+  background: gainsboro;
+  min-height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
